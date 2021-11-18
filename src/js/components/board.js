@@ -6,7 +6,7 @@ export const printTerrenos = (deck)=> { //deck.map(function(x)
     div01.classList.add('container', 'board')
     div01.innerHTML=
         `
-        <div class="row d-flex justify-content-center">
+        <div class="row d-flex justify-content-center mt-5">
             <div class="land">
                 <img src="${deck[0].url}">
             </div>
@@ -76,7 +76,7 @@ export const printTerrenos = (deck)=> { //deck.map(function(x)
             </div>
         </div>
         </div>
-        <div class="row r2 d-flex justify-content-center">
+        <div class="row r2 d-flex justify-content-center pb-5">
             <div class="land">
                 <img src="${deck[18].url}">
             </div>
