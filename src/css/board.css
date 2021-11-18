@@ -1,0 +1,18 @@
+.board{
+    background-color: brown;
+
+}
+
+.land {
+    width: 250px;
+    margin-left: 125px;
+}
+.r2, .r3 {
+    margin-top: -10%;
+    /* background-color: blue; */
+}
+
+.fin{
+    background-color: aquamarine;
+}
+

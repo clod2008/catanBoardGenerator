@@ -1,0 +1,60 @@
+.carousel-inner, .carousel-item {
+    height: 40vh;
+}
+
+section {
+    z-index: 1;
+}
+
+.carousel-caption {
+    margin: auto;
+    align-self: center;
+    margin-bottom: 1em;
+}
+
+@media (max-width: 765px){
+    .carousel-caption{
+        display: block !important;
+        
+    }
+
+}
+
+@media (max-width: 361px){
+    .carousel-caption{
+
+        top: 20px;
+        margin-top: 20px !important;
+        display: flex !important;
+        flex-direction: column;
+        justify-content: flex-end !important;       
+        
+    }
+    .carousel-caption .btn {
+        top: 30px;
+        position: relative;
+
+    }
+    .carousel-inner .container{
+        display: flex;
+        align-content: flex-end !important;
+        justify-content: center !important;
+        align-content: center !important;
+        margin-top: 20px !important;  
+
+    }
+
+
+}
+
+.carousel-item {
+    text-align: center !important;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.carousel-item .btn {
+    border-radius: 30px !important;
+}
