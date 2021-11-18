@@ -9,7 +9,7 @@ export const navBar = (siteBrand) =>{
     navBarContainer.classList.add('navbar','navbar-expand-lg','navbar-dark','bg-dark', )
     navBarContainer.innerHTML = `
         <div id="navBarHome01" class="container">
-        <a class="navbar-brand" href="${home.url}"><img src="${siteBrand}" alt=""><span class="brand01">Catan </span><span class="brand02">Board Maker</span></a>
+        <a class="navbar-brand" href="${home.url}"><img src="${siteBrand}" alt=""><span class="brand01">Catan </span><span class="brand02">Board Generator</span></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="oi oi-menu"></span> Menu
         </button>
